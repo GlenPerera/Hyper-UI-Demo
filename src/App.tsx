@@ -1,11 +1,13 @@
-
+import Navbar from "./components/navbar";
+import Herosection from "./components/herosection";
+import Footer from "./components/footer";
 
 function App() {
   return (
     <>
-    <p>Hello There</p>
-    <p></p>
-    
+      <Navbar />
+      <Herosection />
+      <Footer />
     </>
   );
 }
